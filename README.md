@@ -1,4 +1,4 @@
-# -1 Transfer object
+## Transfer object
 - Fill .env
 ```
 DERIVATION_PATH=m/44'/784'/0'/0'/0'
