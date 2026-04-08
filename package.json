@@ -1,0 +1,21 @@
+{
+  "name": "sui-ledger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "transfer_object.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "@ledgerhq/hw-transport-node-hid": "^6.29.14",
+    "@mysten/ledgerjs-hw-app-sui": "^0.6.0",
+    "@mysten/signers": "^0.2.0",
+    "@mysten/sui": "^1.45.0",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.1"
+  }
+}

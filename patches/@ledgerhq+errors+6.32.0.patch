@@ -1,0 +1,10 @@
+diff --git a/node_modules/@ledgerhq/errors/lib-es/index.js b/node_modules/@ledgerhq/errors/lib-es/index.js
+index 22b183d..c06888e 100644
+--- a/node_modules/@ledgerhq/errors/lib-es/index.js
++++ b/node_modules/@ledgerhq/errors/lib-es/index.js
+@@ -1,4 +1,4 @@
+-import { serializeError, deserializeError, createCustomErrorClass, addCustomErrorDeserializer, } from "./helpers";
++import { serializeError, deserializeError, createCustomErrorClass, addCustomErrorDeserializer, } from "./helpers.js";
+ export { serializeError, deserializeError, createCustomErrorClass, addCustomErrorDeserializer };
+ export const AccountNameRequiredError = createCustomErrorClass("AccountNameRequired");
+ export const AccountNotSupported = createCustomErrorClass("AccountNotSupported");
